@@ -1,3 +1,169 @@
-h1 {
-    color:red
+.container {
+    width: 1140px;
+margin: 0%;
 }
+
+.hero {
+    background-image: url("images/Hero Image.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.hero-text {
+    background-color: rgba(237, 109, 133, .7);
+    position: absolute;
+    left: 0;
+    bottom: 35px;
+    padding: 20px;
+}
+
+.video {
+    background-color: rgba(237, 109, 133, .7);
+    position: relative;
+    left: 0;
+    padding: 10px;
+    bottom: 50px;
+    width: 60%;
+    height: 40vh;
+}
+
+.navigation {
+    display: flex;
+    background-color: #ea9d5b;
+    height: 12vh;
+}
+
+.logo img {
+    align-items: center;
+}
+
+.blogo img {
+    margin-left: 100px;
+}
+
+.bio {
+    display: flex;
+    width: 80%;
+    margin: 15px auto;
+    padding: 50px;
+}
+
+.timeline {
+margin: 20px auto;
+background-color: #ea9d5b;
+}
+
+.video {
+    margin-top: 15%;
+}
+
+.text-col {
+    width: 50%;
+    padding-right: 50px;
+}
+
+.text-video {
+    width: 90%;
+}
+
+.image-col {
+    width: 50%;
+}
+
+.image-col img {
+    width: 100%;
+}
+
+
+.last {
+    background-color: #ea9d5b;
+    padding: 40px;
+}
+
+.time-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.collection {
+    height: 98vh;
+    width: 80%
+}
+
+.card-collection {
+    display: flex;
+}
+
+.card {
+    width: 33%;
+    margin: 15px;
+    padding: 10px;
+}
+
+.card-1 {
+    text-align: center;
+}
+
+.card-1 img {
+    width: 50%;
+}
+
+.card-underline {
+    border-bottom: 1px solid white;
+    padding-bottom: 80px;
+}
+
+
+.card img {
+    width: 100%;
+}
+
+
+ul {
+    display: flex;
+    text-align: center;
+    padding-left: 200px;
+}
+
+li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    align-content: center;
+}
+
+ul li {
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: #08824e;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+h5 {
+    text-align: center;
+} 
+
+
+
