@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Montserrat:wght@300&family=Playfair+Display:wght@400;500&family=Roboto+Mono:wght@100;200&display=swap');
+
+
 .container {
     width: 1140px;
 margin: 0%;
@@ -19,14 +22,22 @@ margin: 0%;
     padding: 20px;
 }
 
+
 .video {
-    background-color: rgba(237, 109, 133, .7);
-    position: relative;
-    left: 0;
-    padding: 10px;
-    bottom: 50px;
-    width: 60%;
-    height: 40vh;
+    background: rgb(237,109,133);
+    background: linear-gradient(90deg, rgba(237,109,133,1) 0%, rgba(237,109,133,1) 65%, rgba(255,255,255,1) 65%);    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.text-video {
+flex-basis: 30%;
+padding: 10px;
+}
+
+.youtubevid {
+flex-basis: 60%;
 }
 
 .navigation {
@@ -51,12 +62,13 @@ margin: 0%;
 }
 
 .timeline {
-margin: 20px auto;
+margin: 80px auto;
 background-color: #ea9d5b;
 }
 
-.video {
-    margin-top: 15%;
+.text {
+    color: white;
+    text-align: center;
 }
 
 .text-col {
@@ -66,6 +78,8 @@ background-color: #ea9d5b;
 
 .text-video {
     width: 90%;
+    color: white;
+    padding-top: 55px;
 }
 
 .image-col {
@@ -88,10 +102,7 @@ background-color: #ea9d5b;
     align-items: center;
 }
 
-.collection {
-    height: 98vh;
-    width: 80%
-}
+
 
 .card-collection {
     display: flex;
@@ -100,15 +111,18 @@ background-color: #ea9d5b;
 .card {
     width: 33%;
     margin: 15px;
-    padding: 10px;
+    padding: 20px;
 }
 
 .card-1 {
-    text-align: center;
-}
+    width: 33%;
+    margin: 15px;
+    padding: 10px;}
 
 .card-1 img {
-    width: 50%;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
 }
 
 .card-underline {
@@ -131,6 +145,7 @@ ul {
 li a {
     text-transform: uppercase;
     text-decoration: none;
+    font-family: Montserrat;
     color: white;
     padding: 20px;
     align-content: center;
@@ -143,26 +158,58 @@ ul li {
     justify-content: space-between;
 }
 
+body {
+    font-family: Montserrat;
+    font-size: 15px;
+}
+
+button {
+    display: block;
+    background-color: #ed6d85;
+  border: none;
+  border-radius: 25px;
+  padding: 8px 15px;
+  text-transform: uppercase;
+  margin-top: 50px;
+  color: white;
+  font-family: sans-serif;
+  text-decoration: bold;
+}
+
+
+
 h1 {
     color: white;
+    font-family: Playfair Display;
+    font-size: 65px;
 }
 
 h2 {
     color: white;
+    font-size: 17px;
+    text-align: center;
 }
 
 h3 {
     color: #08824e;
     text-align: center;
+    font-family: Bebas Neue;
+    font-size: 35px;
 }
 
 h4 {
     text-align: center;
     padding-top: 50px;
+    color: #08824e;
+    font-family: Bebas Neue;
+    font-size: 35px;
 }
 
 h5 {
     text-align: center;
+    color: #d17250;
+    font-family: Bebas Neue;   
+    font-size: 25px;
 } 
 
 
