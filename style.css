@@ -6,6 +6,53 @@
 margin: 0%;
 }
 
+
+body {
+    font-family: Montserrat;
+    font-size: 15px;
+}
+
+
+
+
+
+.navigation {
+    display: flex;
+    background-color: #ea9d5b;
+    height: 12vh;
+}
+
+.logo img {
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    text-align: center;
+    padding-left: 200px;
+}
+
+li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 15px;
+    color: white;
+    padding: 20px;
+    align-content: center;
+}
+
+ul li {
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+
+
+
+
 .hero {
     background-image: url("images/Hero Image.jpeg");
     background-repeat: no-repeat;
@@ -21,6 +68,116 @@ margin: 0%;
     bottom: 35px;
     padding: 20px;
 }
+
+h1 {
+    color: white;
+    font-family: Playfair Display;
+    font-size: 55px;
+    line-height: 1%;
+}
+
+h2 {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
+
+
+.bio {
+    display: flex;
+    width: 80%;
+    margin: 15px auto;
+    padding: 50px;
+}
+
+.text-col {
+    width: 50%;
+    padding-right: 50px;
+}
+
+.image-col {
+    width: 50%;
+}
+
+.image-col img {
+    width: 100%;
+}
+
+h3 {
+    color: #08824e;
+    text-align: center;
+    font-family: Bebas Neue;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+.timeline {
+    margin: 80px auto;
+    background-color: #ea9d5b;
+    }
+
+
+    h4 {
+        text-align: center;
+        padding-top: 50px;
+        color: #08824e;
+        font-family: Bebas Neue;
+        font-size: 35px;
+        letter-spacing: 1px;
+    }
+
+    .time-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h5 {
+        text-align: center;
+        color: #d17250;
+        font-family: Bebas Neue;   
+        font-size: 25px;
+        letter-spacing: 1px;
+    } 
+
+    .card {
+        width: 33%;
+        margin: 15px;
+        padding: 20px;
+    }
+
+    .card-underline {
+        border-bottom: 1px solid white;
+        padding-bottom: 80px;
+    }
+
+    .text {
+        color: white;
+        text-align: center;
+    }
+
+    button {
+        display: block;
+        background-color: #ed6d85;
+      border: none;
+      border-radius: 25px;
+      padding: 8px 15px;
+      text-transform: uppercase;
+      margin-top: 50px;
+      color: white;
+      font-family: sans-serif;
+      text-decoration: bold;
+ }
+
+
+
 
 
 .video {
@@ -40,78 +197,27 @@ padding: 10px;
 flex-basis: 60%;
 }
 
-.navigation {
-    display: flex;
-    background-color: #ea9d5b;
-    height: 12vh;
-}
-
-.logo img {
-    align-items: center;
-}
-
-.blogo img {
-    margin-left: 100px;
-}
-
-.bio {
-    display: flex;
-    width: 80%;
-    margin: 15px auto;
-    padding: 50px;
-}
-
-.timeline {
-margin: 80px auto;
-background-color: #ea9d5b;
-}
-
-.text {
-    color: white;
-    text-align: center;
-}
-
-.text-col {
-    width: 50%;
-    padding-right: 50px;
-}
-
 .text-video {
     width: 90%;
     color: white;
     padding-top: 55px;
 }
 
-.image-col {
-    width: 50%;
+.text-last {
+    font-size: 11px;
+    text-align: center;
 }
 
-.image-col img {
-    width: 100%;
+.text-connect {
+    float: right;
 }
 
 
-.last {
-    background-color: #ea9d5b;
-    padding: 40px;
-}
-
-.time-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 
 
 .card-collection {
     display: flex;
-}
-
-.card {
-    width: 33%;
-    margin: 15px;
-    padding: 20px;
 }
 
 .card-1 {
@@ -125,92 +231,48 @@ background-color: #ea9d5b;
     object-fit: cover;
 }
 
-.card-underline {
-    border-bottom: 1px solid white;
-    padding-bottom: 80px;
-}
-
-
 .card img {
     width: 100%;
 }
 
 
-ul {
-    display: flex;
-    text-align: center;
-    padding-left: 200px;
+
+
+
+.last {
+    background-color: #ea9d5b;
+    padding: 40px;
+    height: 23vh;
 }
 
-li a {
+.last-logo {
+    margin-left: 50px;
+    padding-top: 20px;
+}
+
+form input {
+    border: none;
+    border-radius: 15px;
+    padding: 7px;
+}
+
+h6 {
+    font-family: Montserrat;
     text-transform: uppercase;
-    text-decoration: none;
-    font-family: Montserrat;
-    color: white;
-    padding: 20px;
-    align-content: center;
-}
-
-ul li {
-    text-decoration: none;
-    list-style: none;
-    padding: 20px;
-    justify-content: space-between;
-}
-
-body {
-    font-family: Montserrat;
-    font-size: 15px;
-}
-
-button {
-    display: block;
-    background-color: #ed6d85;
-  border: none;
-  border-radius: 25px;
-  padding: 8px 15px;
-  text-transform: uppercase;
-  margin-top: 50px;
-  color: white;
-  font-family: sans-serif;
-  text-decoration: bold;
-}
-
-
-
-h1 {
-    color: white;
-    font-family: Playfair Display;
-    font-size: 65px;
-}
-
-h2 {
-    color: white;
-    font-size: 17px;
+    font-size: 13px;
     text-align: center;
 }
 
-h3 {
-    color: #08824e;
-    text-align: center;
-    font-family: Bebas Neue;
-    font-size: 35px;
-}
 
-h4 {
-    text-align: center;
-    padding-top: 50px;
-    color: #08824e;
-    font-family: Bebas Neue;
-    font-size: 35px;
-}
 
-h5 {
-    text-align: center;
-    color: #d17250;
-    font-family: Bebas Neue;   
-    font-size: 25px;
-} 
+
+
+
+
+
+
+
+
 
 
 
