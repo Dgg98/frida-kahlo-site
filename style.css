@@ -3,7 +3,8 @@
 
 .container {
     width: 1140px;
-margin: 0%;
+    margin: 0 auto;
+
 }
 
 
@@ -20,6 +21,7 @@ body {
     display: flex;
     background-color: #ea9d5b;
     height: 12vh;
+    align-items: center;
 }
 
 .logo img {
@@ -38,7 +40,7 @@ li a {
     font-family: Montserrat;
     font-size: 15px;
     color: white;
-    padding: 20px;
+    padding: 10px;
     align-content: center;
 }
 
@@ -90,7 +92,8 @@ h2 {
     display: flex;
     width: 80%;
     margin: 15px auto;
-    padding: 50px;
+    padding: 30px;
+    align-items: center;
 }
 
 .text-col {
@@ -126,7 +129,7 @@ h3 {
 
     h4 {
         text-align: center;
-        padding-top: 50px;
+        padding-top: 60px;
         color: #08824e;
         font-family: Bebas Neue;
         font-size: 35px;
@@ -189,7 +192,7 @@ h3 {
 }
 
 .text-video {
-flex-basis: 30%;
+flex-basis: 33%;
 padding: 10px;
 }
 
@@ -206,11 +209,10 @@ flex-basis: 60%;
 .text-last {
     font-size: 11px;
     text-align: center;
+    color: white;
 }
 
-.text-connect {
-    float: right;
-}
+
 
 
 
@@ -239,15 +241,36 @@ flex-basis: 60%;
 
 
 
-.last {
+footer {
     background-color: #ea9d5b;
     padding: 40px;
     height: 23vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
 }
 
-.last-logo {
-    margin-left: 50px;
-    padding-top: 20px;
+.text-last {
+    text-align: center;
+}
+
+.text-last-two-col {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.text-connect {
+    text-align: center;
+}
+
+.text-connect h5, .text-connect button {
+    margin: 20px auto;
+}
+
+.text-connect input {
+    padding: 10px 15px;
 }
 
 form input {
