@@ -79,6 +79,7 @@ h1 {
     font-family: Playfair Display;
     font-size: 55px;
     line-height: 1%;
+    letter-spacing: 2px;
 }
 
 h2 {
@@ -95,7 +96,7 @@ h2 {
     display: flex;
     width: 80%;
     margin: 15px auto;
-    padding: 30px;
+    padding: 10px;
     align-items: center;
 }
 
@@ -116,7 +117,7 @@ h3 {
     color: #08824e;
     text-align: center;
     font-family: Bebas Neue;
-    font-size: 35px;
+    font-size: 50px;
     letter-spacing: 1px;
 }
 
@@ -135,7 +136,7 @@ h4 {
     padding-top: 60px;
     color: #08824e;
     font-family: Bebas Neue;
-    font-size: 35px;
+    font-size: 50px;
     letter-spacing: 1px;
 }
 
@@ -143,6 +144,15 @@ h4 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.timeline-title {
+    background-color: #ed6d85;
+    padding: 10px 25px;
+    width: 500px;
+    margin: 0 auto;
+    position: relative;
+    top: -30px
 }
 
 h5 {
@@ -155,12 +165,17 @@ h5 {
 
 .card {
     width: 33%;
-    margin: 15px;
+    margin: 20px;
     padding: 20px;
 }
 
 .card-underline {
     border-bottom: 1px solid white;
+    padding-bottom: 80px;
+}
+
+.card-no-underline {
+    border-bottom: none;
     padding-bottom: 80px;
 }
 
